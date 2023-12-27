@@ -16,6 +16,7 @@ release
 
 # Editor directories and files
 .vscode/.debug.env
+.vs
 .idea
 .DS_Store
 *.suo
@@ -31,3 +32,4 @@ yarn.lock
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/zman-clock-win/bin/Debug/net8.0-windows
