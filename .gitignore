@@ -13,6 +13,8 @@ dist-ssr
 dist-electron
 release
 *.local
+bin
+obj
 
 # Editor directories and files
 .vscode/.debug.env
@@ -32,4 +34,3 @@ yarn.lock
 /test-results/
 /playwright-report/
 /playwright/.cache/
-/zman-clock-win/bin/Debug/net8.0-windows

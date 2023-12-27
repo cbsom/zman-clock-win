@@ -250,7 +250,7 @@ function App() {
 
     return (
         <div className="app" style={{direction: settings.english ? 'ltr' : 'rtl'}}>
-            <div className="fixed top-7 right-3 z-10">
+            <div className="fixed sm:top-7 top-1 sm:right-3 right-1 z-10">
                 <a
                     href="#"
                     data-te-ripple-init={true}
