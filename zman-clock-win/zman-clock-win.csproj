@@ -20,6 +20,6 @@
 	</ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="xcopy /E /H /C /I /Y &quot;$(SolutionDir)client\dist&quot; &quot;$(ProjectDir)dist&quot;" />
+    <Exec Command="xcopy /E /H /C /I /Y &quot;$(SolutionDir)zman-clock\dist&quot; &quot;$(ProjectDir)dist&quot;" />
   </Target>
 </Project>

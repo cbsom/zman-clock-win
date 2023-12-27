@@ -6,7 +6,7 @@ import { SingleZman } from "../components/SingleZman";
 import Drawer from "../components/Drawer";
 import SettingsChooser from "../components/SettingsChooser";
 import "./index.tsx.css";
-import type { SunTimes, Time, ShulZmanimType, ZmanTime, ZmanToShow } from "jcal-zmanim";
+import type { SunTimes, Time, ShulZmanimType, ZmanTime, ZmanToShow, Location } from "jcal-zmanim";
 
 function App() {
     const initialSettings = new Settings();
@@ -92,7 +92,7 @@ function App() {
                 zmanTimes = getCorrectZmanTimes(
                     sd,
                     nowTime,
-                    settings.location,
+                    settings.location as Location,
                     settings.zmanimToShow,
                     settings.minToShowPassedZman,
                     sunTimes.sunset as Time
@@ -101,7 +101,7 @@ function App() {
             setSdate(sd);
             setJdate(jdate);
             setCurrentTime(nowTime);
-            setShulZmanim(ZmanimUtils.getBasicShulZmanim(sd, settings.location) as ShulZmanimType);
+            setShulZmanim(ZmanimUtils.getBasicShulZmanim(sd, settings.location as Location) as ShulZmanimType);
         }
         fillNotifications();
         setNeedsFullRefresh(false);
@@ -281,7 +281,7 @@ function App() {
                 <h2 className="date-text">{settings.english ? jdate.toString() : jdate.toStringHeb()}</h2>
                 <h3 className="s-date-text">
                     {settings.english
-                        ? Utils.toStringDate(sdate)
+                        ? Utils.toStringDate(sdate, false, false)
                         : Utils.toShortStringDate(sdate, !settings.location.Israel)}
                 </h3>
                 {!!notifications?.dayNotes && notifications.dayNotes.length > 0 && (
