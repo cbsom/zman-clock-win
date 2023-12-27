@@ -1,0 +1,141 @@
+#root {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-box {
+    position: relative;
+    height: 9em;
+}
+
+.logo {
+    position: absolute;
+    left: calc(50% - 4.5em);
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h1,
+h3,
+h4,
+h5 {
+    line-height: initial;
+    margin: 5px;
+}
+
+.button-settings {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.top-section {
+    padding: 0 0 10px 0;
+    background-color: #1e1e1e;
+}
+
+.zmanim-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    padding-top:10px;
+}
+
+.day-notes-view {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.day-notes-inner-view {
+    justify-content: center;
+    gap:4vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+}
+
+.day-notes-text {
+    color: #7777aa;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 27px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.tefillah-notes-view {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.tefillah-notes-inner-view {
+    display: flex;
+    justify-content: center;
+    gap:2vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tefillah-notes-text {
+    color: #889999;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #191920;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.date-text {
+    color: #bb8888;
+    font-size: 25px;
+    text-align: center;
+}
+
+.s-date-text {
+    color: #876;
+    font-size: 15px;
+    text-align: center;
+}
+
+.time-text {
+    color: #559955;
+    font-size: 80px;
+    padding: 1px;
+}
+
+.time-text-eng {
+    color: #559955;
+    font-size: 60px;
+}
+
+.time-now-text {
+    color: #9999ff;
+    font-size: 20px;
+    font-weight: bold;
+}

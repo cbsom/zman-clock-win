@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KTP8TDP68LhDgLUZaYuunviJi7rnmol/2IrigpIn4vSoiXwfIKR5Cbkm5Cva+Rlezixjxe6O2tBbcOUChdKlVA==",
+  "success": true,
+  "projectFilePath": "C:\\repos_git\\zman-clock-win\\zman-clock-win\\zman-clock-win.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cbsom\\.nuget\\packages\\microsoft.web.webview2\\1.0.2210.55\\microsoft.web.webview2.1.0.2210.55.nupkg.sha512"
+  ],
+  "logs": []
+}
