@@ -249,8 +249,9 @@ function App() {
         };
 
     return (
-        <div className="app" style={{direction: settings.english ? 'ltr' : 'rtl'}}>
-            <div className="fixed sm:top-7 top-1 sm:right-3 right-1 z-10">
+        <div className="app" style={{ direction: settings.english ? 'ltr' : 'rtl' }}>
+            <div className="basad">בס"ד</div>
+            <div className="fixed sm:top-7 top-4 sm:right-3 right-1 z-10">
                 <a
                     href="#"
                     data-te-ripple-init={true}
@@ -263,7 +264,7 @@ function App() {
                         viewBox="0 0 24 24"
                         strokeWidth="1.5"
                         stroke="currentColor"
-                        className="h-5 w-5">
+                        className="sm:h-5 sm:w-5 h-4 w-4">
                         <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
