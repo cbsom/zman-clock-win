@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace ZmanClockWin
 {
     partial class Form1
     {

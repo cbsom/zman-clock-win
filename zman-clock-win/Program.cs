@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace ZmanClockWin
 {
     internal static class Program
     {
