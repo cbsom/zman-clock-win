@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\repos_git\\zman-clock-win\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{70D7AB26-B658-41CE-8AE3-A7E17B3DC51B}|zman-clock-win\\zman-clock-win.csproj|c:\\repos_git\\zman-clock-win\\zman-clock-win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D7AB26-B658-41CE-8AE3-A7E17B3DC51B}|zman-clock-win\\zman-clock-win.csproj|solutionrelative:zman-clock-win\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock-win\\Form1.cs",
-              "RelativeDocumentMoniker": "zman-clock-win\\Form1.cs",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock-win\\Form1.cs",
-              "RelativeToolTip": "zman-clock-win\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-03T21:30:51.022Z",
-              "EditorCaption": ""
             }
           ]
         }
