@@ -130,14 +130,14 @@ export default function SettingsChooser({onChangeSettings, onClose}: SettingsCho
                             <div
                                 className="text-gray-400">{eng ? 'Minutes to show past Zmanim' : 'דקות להציג זמנים שעברו'}</div>
                             <input type="number" value={settings.minToShowPassedZman}
-                                   className="text-amber-400 w-1/5 rounded text-center"
+                                   className="text-amber-400 w-1/5 rounded text-center bg-[#292928]"
                                    onChange={e => changeSetting({minToShowPassedZman: parseInt(e.target.value)})}
                             />
                         </div>
                         <div className="flex flex-row justify-between items-center px-4 py-1 mb-1.5 bg-[#212223]">
                             <div className="text-gray-400">{eng ? 'Number of Zmanim to Show' : 'מספר זמנים להציג'}</div>
                             <input type="number" value={settings.numberOfItemsToShow}
-                                   className="text-amber-400  w-1/5 rounded text-center"
+                                   className="text-amber-400  w-1/5 rounded text-center bg-[#292928]"
                                    onChange={e => changeSetting({numberOfItemsToShow: parseInt(e.target.value)})}
                             />
                         </div>

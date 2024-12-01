@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zman-clock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af38e2c6c27fb01d4b012f0bda914d1acc6424d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae327515b2678b7ba76ba0634a3d71c67b42ad8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("zman-clock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zman-clock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

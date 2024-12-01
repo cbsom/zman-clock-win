@@ -20,27 +20,27 @@
     color: #99bb99;
 }
 .time-remaining-text {
-    font-size: 38px;
+    font-size: min(38px, 5vw);
     text-align: center;
 }
 .time-remaining-text-eng {
-    font-size: 30px;
+    font-size: min(30px, 5vw);
     text-align: center;
 }
 .time-remaining-number {
     color: #ffffee;
-    font-size: 20px;
+    font-size: min(20px, 4vw);
 }
 .time-remaining-number-eng {
     color: #ffffee;
-    font-size: 17px;
+    font-size: min(17px, 4vw);
 }
 .time-remaining-label {
-    font-size: 18px;
+    font-size: min(18px, 4vw);
     font-weight: bold;
 }
 .time-remaining-label-eng {
-    font-size: 15px;
+    font-size: min(15px, 4vw);
     font-weight: bold;
 }
 .zman-type-name-text {
