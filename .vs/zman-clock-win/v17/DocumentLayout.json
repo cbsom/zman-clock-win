@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\repos_git\\zman-clock-win\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\src\\settingscontext.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\src\\settingscontext.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|c:\\repos_git\\zman-clock-win\\zman-clock\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8105BA5D-08DB-4DF7-9D19-73EF8BC41621}|zman-clock\\zman-clock.esproj|solutionrelative:zman-clock\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,79 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "settingsContext.tsx",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\src\\settingsContext.tsx",
-              "RelativeDocumentMoniker": "zman-clock\\src\\settingsContext.tsx",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\src\\settingsContext.tsx",
-              "RelativeToolTip": "zman-clock\\src\\settingsContext.tsx",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-11T10:35:52.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.tsx",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\src\\main.tsx",
-              "RelativeDocumentMoniker": "zman-clock\\src\\main.tsx",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\src\\main.tsx",
-              "RelativeToolTip": "zman-clock\\src\\main.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-11T10:35:36.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\index.html",
-              "RelativeDocumentMoniker": "zman-clock\\index.html",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\index.html",
-              "RelativeToolTip": "zman-clock\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-11T10:35:25.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\package.json",
-              "RelativeDocumentMoniker": "zman-clock\\package.json",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\package.json",
-              "RelativeToolTip": "zman-clock\\package.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-11T10:35:03.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tailwind.config.js",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\tailwind.config.js",
-              "RelativeDocumentMoniker": "zman-clock\\tailwind.config.js",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\tailwind.config.js",
-              "RelativeToolTip": "zman-clock\\tailwind.config.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-11T10:34:58.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\repos_git\\zman-clock-win\\zman-clock\\vite.config.js",
-              "RelativeDocumentMoniker": "zman-clock\\vite.config.js",
-              "ToolTip": "C:\\repos_git\\zman-clock-win\\zman-clock\\vite.config.js",
-              "RelativeToolTip": "zman-clock\\vite.config.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-11T10:34:48.658Z"
             }
           ]
         }
