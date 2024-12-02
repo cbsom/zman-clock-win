@@ -271,30 +271,44 @@ function App() {
       return settings.english ? jdate.toString() : jdate.toStringHeb();
     }
   };
-
   return (
-    <div className="app" style={{ direction: settings.english ? "ltr" : "rtl" }}>
+    <div className={`app ${settings.english ? "app-eng" : "app-heb"}`}>
       <div className="basad">בס"ד</div>
-      <div className="fixed sm:top-7 top-4 sm:right-3 right-1 z-10">
+      <div className="fixed sm:top-0 top-0 sm:left-0 left-0 z-10">
         <a
           href="#"
           title={settings.english ? "Open settings" : "הגדרות"}
           data-te-ripple-init={true}
           data-te-ripple-color="light"
-          className="cursor-pointer p-5"
+          className="cursor-pointer p-1"
           onClick={() => setIsDrawerOpen(true)}>
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
+            width="24px"
+            height="24px"
             viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="sm:h-5 sm:w-5 h-4 w-4">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-            />
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#545454">
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+            <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              {" "}
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z"
+                fill="#1C274C"></path>{" "}
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z"
+                fill="#1C274C"></path>{" "}
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20.75 17C20.75 17.4142 20.4142 17.75 20 17.75L4 17.75C3.58579 17.75 3.25 17.4142 3.25 17C3.25 16.5858 3.58579 16.25 4 16.25L20 16.25C20.4142 16.25 20.75 16.5858 20.75 17Z"
+                fill="#1C274C"></path>{" "}
+            </g>
           </svg>
         </a>
       </div>
