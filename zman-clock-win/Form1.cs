@@ -18,7 +18,7 @@ namespace ZmanClockWin
             await webView21.EnsureCoreWebView2Async();
             webView21.CoreWebView2.SetVirtualHostNameToFolderMapping("zman-clock",
                          Path.Combine(Directory.GetCurrentDirectory(), "dist"),
-                         CoreWebView2HostResourceAccessKind.DenyCors);
+                         CoreWebView2HostResourceAccessKind.Deny);
             webView21.CoreWebView2.Navigate("http://zman-clock/index.html");
         }
     }
